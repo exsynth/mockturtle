@@ -32,7 +32,9 @@
 
 #include <stdio.h>
 
-ABC_NAMESPACE_HEADER_START
+#include "abc_namespaces.h"
+
+PABC_NAMESPACE_HEADER_START
 
 
 ////////////////////////////////////////////////////////////////////////
@@ -710,7 +712,7 @@ static inline void Vec_WecRemoveEmpty( Vec_Wec_t * vCubes )
 }
 
 
-ABC_NAMESPACE_HEADER_END
+PABC_NAMESPACE_HEADER_END
 
 #ifdef _MSC_VER
 #pragma warning(pop)
@@ -721,4 +723,3 @@ ABC_NAMESPACE_HEADER_END
 ////////////////////////////////////////////////////////////////////////
 ///                       END OF FILE                                ///
 ////////////////////////////////////////////////////////////////////////
-
